@@ -17,7 +17,7 @@ namespace mid_test_study
         /// 주요 생성자 : FileStream( 경로, 파일모드, 접근모드 )
         /// 바이트 기반 처리, 대용량 파일 처리, 저수준 처리, 문자열은 무조건 Encoding 필요
 
-        static void Main()
+        static void Class_4()
         {
             string path = @"C:\Users\super\OneDrive\바탕 화면\폴더정리\1. Project\3학년\03. C#\grade_3_project\mid_test\mid_test_study/filestreamTest.txt";
             FileStream fs = new FileStream(path, FileMode.Append, FileAccess.Write);
